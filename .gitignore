@@ -1,0 +1,21 @@
+# Datasets - do not push to GitHub
+DataSet/
+*.rar
+*.zip
+*.7z
+
+# Model weights - keep local or upload to Drive/Releases/LFS
+Code/weights/
+*.pt
+*.pth
+*.onnx
+
+# Python/Jupyter junk
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
